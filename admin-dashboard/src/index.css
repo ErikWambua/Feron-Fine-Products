@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App globals */
+:root {
+  --brand: #6366f1;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply text-gray-800 bg-gray-50;
+}
+
+/********************
+  Reusable utilities
+*********************/
+.container-app {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
